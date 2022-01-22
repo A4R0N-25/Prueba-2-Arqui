@@ -42,6 +42,8 @@ public class EstudianteService {
                 .fechaCreacion(new Date())
                 .estado("ACT")
                 .build();
+
+        this.estudianteRepository.save(estudiante);
     }
 
 
